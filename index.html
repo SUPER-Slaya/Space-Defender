@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Space Defender</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div id="menu">
+  <h1>SPACE DEFENDER</h1>
+  <p>Steam-Ready Edition</p>
+  <button onclick="Game.start()">Play</button>
+</div>
+
+<div id="ui">
+  Score: <span id="score">0</span> |
+  Lives: <span id="lives">3</span> |
+  Wave: <span id="wave">1</span>
+</div>
+
+<canvas id="game"></canvas>
+
+<script src="audio.js"></script>
+<script src="effects.js"></script>
+<script src="entities.js"></script>
+<script src="ui.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
